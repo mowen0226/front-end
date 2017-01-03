@@ -1,0 +1,23 @@
+﻿* { margin:0; padding:0;}
+ul,dl,ol,li,dd,dt { list-style:none;}
+a { text-decoration:none; color:#6cff00; blr:expression(this.onFocus=this.blur());outline:0; zoom:1; cursor:pointer}
+body { line-height:22px; font-size:13px; background-color: #333; font-family:Georgia; color: #fff}
+
+
+
+#birdContainer { width: 960px; height: 640px; background: url(../img/bg.png) repeat-x; margin:0 auto; position: relative; overflow: hidden;}
+#birdBox { background: url(../img/bird.gif) no-repeat; position: absolute;}
+.tubeBox {background:url(../img/tube.png) no-repeat; position: absolute;}
+.groundBox {background:url(../img/ground.gif) repeat-x; position: absolute; width: 100%; left: 0; bottom: 0; height: 69px}
+
+#score { font-size: 100px; color: #fff; position: absolute; top:30px; left: 50%; margin-left: -40px; line-height: 40px; display: none;}
+
+.btn {width: 300px; height: 70px;line-height: 70px; font-size: 40px; font-family: '微软雅黑'; margin:0 auto;background:#d4bf26; border: 6px solid #af9801; border-radius: 50px; cursor: pointer; text-align: center;}
+
+#start { position: absolute; left: 50%;margin-left: -150px; top:200px }
+	#start:hover { background-color: #e0c721}
+
+#restart { position: absolute; width: 600px; left: 50%; top: 180px; margin-left: -300px; display: none; text-align: center;}
+	#sysMsg { font-size: 70px; height: 70px;}
+	#restartBtn {}
+	#scoreHighest { line-height: 30px; font-family: verdana; padding-top: 20px}

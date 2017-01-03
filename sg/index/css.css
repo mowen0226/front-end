@@ -1,0 +1,216 @@
+﻿* { margin:0; padding:0;}
+ul,dl,ol,li,dd,dt { list-style:none;}
+a { text-decoration:none; color:#fff; blr:expression(this.onFocus=this.blur());outline:0; zoom:1; cursor:pointer}
+img { border:0;}
+body { line-height:22px; font-size:13px; color:#333; background:#160300; font-family:"微软雅黑"}
+
+
+
+.bg1 { background:#270500 url(http://cdn1.zygames.com/mocool/zqsg/index/bg.jpg) no-repeat 50% -90px; height:850px; overflow:hidden; min-width:1000px; max-width:2000px; margin:0 auto; position:relative}
+
+
+.pattern { height:619px; background:url(http://cdn1.zygames.com/mocool/zqsg/index/pattern_bg.png) repeat-x;width:85%; margin:0 auto;  margin-top:55px; position:relative; max-width:2000px}
+	.patternLine { position:absolute; top:-29px; height:697px; width:52px;  background:url(http://cdn1.zygames.com/mocool/zqsg/index/pattern_line.jpg) no-repeat;}
+	.patternLine_l { left:-30px}
+	.patternLine_r { background-position:-52px 0; right:-30px}
+
+
+/*patternConBox*/
+#patternConBox {height:500px; position:relative; overflow:hidden; top:30px; margin:0 40px; background:#3c0707;  border:2px solid #ab7764; border-bottom-color:#935c49}/*b6e9e2*/
+
+	#hero { position:absolute; top: 0;width:190px; height:222px;top:1000px; background-repeat:no-repeat; display:block; cursor:pointer;}
+	.person { position:absolute; width:100%; bottom:0; height:190px; z-index:999;}
+	.scene { width:2100px; position:absolute; height:380px; bottom:0; display:none; background-repeat:no-repeat; display:block;pointer-events: none; background-position:left bottom}
+		#scene_back { background-position:0 0; background-repeat:repeat-x}
+		#door { width:256px; height:276px;background:no-repeat; position:absolute; bottom:-50px; right:-22px;}
+		#door2 { width:210px; height:400px;background:no-repeat; position:absolute; bottom:0px; right:0px;}
+		#alertBox {display:none; position:absolute; width:100%; height:100%; background:url(http://cdn1.zygames.com/mocool/zqsg/index/bgall2.png) repeat;}
+		#alert { width:493px; height:348px;background:no-repeat; position:absolute; top:90px; left:50%; margin-left:-247px;/*top:180px;*/}
+		 #alert a { display:block;position:absolute; width:100px; height:120px; overflow:hiddenl; border-radius:30px}
+		 #alert .a0 { width:50px; height:40px; top:20px; right:0}
+		 #alert .a1 { left:75px; top:116px}
+		 #alert .a2 { left:260px; top:85px}
+		 #alert .a3 { left:185px; top:193px}
+	
+	
+	#loadingBack { display:block}
+	#loadingLine { width:131px; height:127px; position:absolute; left:50%; margin-left:-68px; top:190px;background:url(http://cdn1.zygames.com/mocool/zqsg/index/loading.gif) no-repeat;}
+
+	#loadingNumber { font-size:30px; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif; color:#feb200; width:300px; height:50px; text-align:center; line-height:50px; position:absolute; left:50%; margin-left:-150px; top:330px;}
+	
+	
+	.cloud { position:absolute; width:302px; height:99px; overflow:hidden; background-image:url(http://cdn1.zygames.com/mocool/zqsg/index/sceneBg_cloud.png)}
+	.cloud_1 { background-position:0 0}
+	.cloud_2 { background-position:0 -99px;}
+	#cover { position:absolute; width:100%; height:100%; background:url(http://cdn1.zygames.com/mocool/zqsg/index/bgall.png) repeat; }
+	#loadingMes { position:absolute;  width:226px; left:50%; margin-left:-113px;height:20px; bottom:50px; color:#fff; text-align:center}
+	#loadingMes a:hover { color:#FF0}
+	
+	.speak { width:246px; height:128px; position:absolute;  position:absolute;  top:-80px; left:0px; display:none; font-size:13px; font-family:"微软雅黑";line-height:20px;background:url(http://cdn1.zygames.com/mocool/zqsg/index/mes.png) repeat; overflow:hidden}
+	.speak .msg {background:url(http://cdn1.zygames.com/mocool/zqsg/index/mesin.png) no-repeat; width:217px; height:70px; margin:18px 0 0 14px}
+
+	#bgclick { position:absolute; width:100%; height:100%}
+	.color { margin-left:-30px}
+	.color1 { color:#bf8b58}
+	.color2 { color:#6a3427}
+	
+	.ys { position:absolute;}
+	#logo { width:222px; height:162px; display:none; top:200px; left:50%; margin-left:-111px}
+	#slogan { width:528px; height:57px; left:50%; margin-left:-230px; top:50px; display:none}
+	
+	
+.btnBox { width:700px; height:78px; position:absolute; left:50%; margin-left:-335px; top:672px;}
+.btn { display:block; background:url(http://cdn1.zygames.com/mocool/zqsg/index/btn.png) no-repeat; position:absolute; width:78px; height:78px;}
+	.enter {background-position: -312px 0; left:210px; top:4px; width:267px}
+	.btn1 { background-position: 0 0; left:0;}
+	.btn2 { background-position: -78px 0; left:100px;}
+	.btn3 { background-position: -156px 0; left:490px;}
+	.btn4 { background-position: -234px 0; left:590px;}
+	
+	
+	.btn1,.btn2,.btn3,.btn4 {
+	-webkit-animation-duration:0.9s;
+	-webkit-animation-timing-function:ease;
+	-webkit-animation-iteration-count:1;
+	-webkit-transition:-webkit-transform 0.3s ease;
+	
+	-moz-animation-duration:0.9s;
+	-moz-animation-timing-function:ease;
+	-moz-animation-iteration-count:1;
+	-moz-transition:-webkit-transform 0.3s ease;
+	}
+	.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover {-webkit-transform:rotate(-180deg);}
+/*
+	.btn1 {-webkit-animation-name:round1;-moz-animation-name:round1;}
+	.btn2 {-webkit-animation-name:round2;-moz-animation-name:round2;}
+	.btn3 {-webkit-animation-name:round3;-moz-animation-name:round3;}
+	.btn4 {-webkit-animation-name:round4;-moz-animation-name:round4;}
+*/
+	.menuaccountBox { position:absolute; width:100%; height:50px; bottom:88px; overflow:hidden;}
+	.account { width:79px; height:31px;background:url(http://cdn1.zygames.com/mocool/zqsg/index/menuaccount.png) no-repeat; text-align:center; color:#b16128; line-height:25px; overflow:hidden; position:absolute; bottom:-31px;}
+	.account1 { left:2px}
+	.account2 { left:103px}
+	.account3 { left:450px;  bottom:-174px; width:149px; height:174px;background:url(http://cdn1.zygames.com/mocool/zqsg/index/ewm.png) no-repeat;}
+	.account4 { left:592px}
+
+.face {width:25px; height:20px; overflow:hidden; line-height:20px;padding:0;background:url(http://cdn1.zygames.com/mocool/zqsg/index/face.png) no-repeat; display:inline-block; margin-bottom:-5px}
+.face1 { background-position:0 0px;}
+.face2 { background-position:0 -20px;}
+.face3 { background-position:0 -40px;}
+.face4 { background-position:0 -60px;}
+.face5 { background-position:0 -80px;}
+.face6 { background-position:0 -100px;}
+.face7 { background-position:0 -120px;}
+.face8 { background-position:0 -140px;}
+.face9 { background-position:0 -160px;}
+.face10 { background-position:0 -180px;}
+.face11 { background-position:0 -200px;}
+.face12 { background-position:0 -220px;}
+.face13 { background-position:0 -240px;}
+.face14 { background-position:0 -260px;}
+
+	
+	
+/*webkit*/	
+
+@-webkit-keyframes round1
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(-1080deg);
+		left:0;	
+	}
+}
+@-webkit-keyframes round2
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(-720deg);
+		left:100px;	
+	}
+}
+
+@-webkit-keyframes round3
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(720deg);
+		left:490px;	
+	}
+}
+
+@-webkit-keyframes round4
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(1080deg);
+		left:590px;	
+	}
+}
+
+
+/*ff*/
+@-moz-keyframes round1
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(-1080deg);
+		left:0;	
+	}
+}
+@-moz-keyframes round2
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(-720deg);
+		left:100px;	
+	}
+}
+
+@-moz-keyframes round3
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(720deg);
+		left:490px;	
+	}
+}
+
+@-moz-keyframes round4
+{
+	0%{
+		-webkit-transform:rotate(0);
+		left:300px;		
+	}	
+	100%{
+		-webkit-transform:rotate(1080deg);
+		left:590px;	
+	}
+}
+
+
+
+body .bottom { background:#160300; border-top-color:#2e0a00}
+body .bottom_in { color:#3e1a10}
+body .bottom_in a { color:#3e1a10}

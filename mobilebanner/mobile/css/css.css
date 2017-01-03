@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;}
+ul,dl,ol { list-style:none;}
+a { text-decoration:none; color:#36474e; blr:expression(this.onFocus=this.blur()); cursor:pointer;outline:0; zoom:1;}
+img { border:0;}
+body { line-height:22px; font-size:12px; color:#4a4a4a; background:#fafafa}
+
+
+
+#adress {
+height:45px; text-align:center; color:#fff; line-height:45px; position:relative;
+text-align:center; color:#fff; border-top:1px solid #d13c3c;border-bottom:1px solid #a91f22;
+text-shadow: 0px -1px 0px #1c1616;filter: dropshadow(color=#1c1616, offx=0, offy=-1);
+background: rgba(166,23,35,1);
+background: -moz-linear-gradient(top, rgba(166,23,35,1) 0%, rgba(185,24,32,1) 52%, rgba(184,20,23,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(166,23,35,1)), color-stop(52%, rgba(185,24,32,1)), color-stop(100%, rgba(184,20,23,1)));
+background: -webkit-linear-gradient(top, rgba(166,23,35,1) 0%, rgba(185,24,32,1) 52%, rgba(184,20,23,1) 100%);
+background: -o-linear-gradient(top, rgba(166,23,35,1) 0%, rgba(185,24,32,1) 52%, rgba(184,20,23,1) 100%);
+background: -ms-linear-gradient(top, rgba(166,23,35,1) 0%, rgba(185,24,32,1) 52%, rgba(184,20,23,1) 100%);
+background: linear-gradient(to bottom, rgba(166,23,35,1) 0%, rgba(185,24,32,1) 52%, rgba(184,20,23,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a61723', endColorstr='#b81417', GradientType=0 );
+
+}
+#adress span {color:#fff; font-size:20px}
+#adress  .btn {display:block; position:absolute; top:0; line-height:50px; width:45px; height:45px; border-radius:50px; overflow:hidden;}
+#adress  a.left { left:0; background:url(http://cdn1.zygames.com/mocool/zqsg/mobile/img/icon_left.png) no-repeat center center; background-size:50% auto;}
+#adress  a.home { right:0; background:url(http://cdn1.zygames.com/mocool/zqsg/mobile/img/icon_home.png) no-repeat center center; background-size:50% auto;}
+
+
+
+/*===== fm =====*/
+.fm { margin:0 auto; font-size:18px; padding-top:0;}
+
+.fm dl { overflow:hidden; zoom:1; height:50px; line-height:50px; border-bottom:1px dashed #e9e9e9;text-shadow: 1px 1px 0px #ffffff;
+        filter: dropshadow(color=#ffffff, offx=1, offy=1); position:relative}
+    .fm .code a { display:block; position:absolute; top:0; right:30px}
+    .fm dt,.fm dd { float:left}
+	.fm dt { width:40%; text-align:right; color:#777; padding-right:3%}
+	.fm dd { width:57%}
+    .fm dd input {font-family:Verdana, Geneva, sans-serif}
+	.fm dd select { width:120px;font-size:15px; margin-top:-2px}
+    .fm dd .code { width:70%}
+.fm .judge {color:#949494; font-size:12px;}
+.fm .uTk { text-align:center; padding:20px 0 10px 0; height:20px}
+.fmBtn { text-align:center; margin:12px 0}
+    .fmBtn * { margin:0 5px}
+.fm dl *,.fmBtn * { vertical-align:middle}
+.resBtn { width:45%; margin-top:10px; background:#e72c2f; border:0; height:50px; line-height:50px; border-radius:4px; font-size:18px; color:#fff; font-weight:bold;
+background: rgba(231,44,47,1);
+background: -moz-linear-gradient(top, rgba(231,44,47,1) 0%, rgba(231,44,47,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(231,44,47,1)), color-stop(100%, rgba(231,44,47,1)));
+background: -webkit-linear-gradient(top, rgba(231,44,47,1) 0%, rgba(231,44,47,1) 100%);
+background: -o-linear-gradient(top, rgba(231,44,47,1) 0%, rgba(231,44,47,1) 100%);
+background: -ms-linear-gradient(top, rgba(231,44,47,1) 0%, rgba(231,44,47,1) 100%);
+background: linear-gradient(to bottom, rgba(231,44,47,1) 0%, rgba(231,44,47,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e72c2f', endColorstr='#e72c2f', GradientType=0 );
+text-shadow: 0px -1px 0px #1c1616;
+        filter: dropshadow(color=#1c1616, offx=0, offy=-1);
+}
+.resBtn_zc { display:inline-block;
+background: rgba(255,175,75,1);
+background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=0 );
+}
+.color_1 { color:#e72c2f;}
+
+#yzm { margin:0; padding:0; width:25%; position:absolute; z-index:9;  top:10px; right:10px; background:#e72c2f; border:0; height:30px; line-height:30px; border-radius:4px; font-size:12px; color:#fff; font-weight:bold;
+background: rgba(255,199,79,1);
+background: -moz-linear-gradient(top, rgba(255,199,79,1) 0%, rgba(245,125,6,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,199,79,1)), color-stop(100%, rgba(245,125,6,1)));
+background: -webkit-linear-gradient(top, rgba(255,199,79,1) 0%, rgba(245,125,6,1) 100%);
+background: -o-linear-gradient(top, rgba(255,199,79,1) 0%, rgba(245,125,6,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,199,79,1) 0%, rgba(245,125,6,1) 100%);
+background: linear-gradient(to bottom, rgba(255,199,79,1) 0%, rgba(245,125,6,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc74f', endColorstr='#f57d06', GradientType=0 );
+text-shadow: 0px 1px 0px #c26e11;filter: dropshadow(color=#c26e11, offx=0, offy=1);
+		
+}
+
+
+.fmReg { font-size:14px}
+.fmReg dl { border:1px solid #e5e5e5; border-radius:8px; width:95%; margin:0 auto; margin-top:15px; background:#eee;}
+.fmReg dt { width:25%;  font-size:16px;}
+.fmReg dd { width:71%}
+.fmReg dd input { width:100%; padding:10px 0; background:none; font-size:16px; border:0; margin-top:-5px}
+
+.valueInfo { width:90%; margin:0 auto; height:20px; line-height:18px; color:#bbb; padding-top:5px; font-size:14px; font-weight:normal}
+
+.replay { width:80%; background:#f2f2f2; margin:40px auto;text-align:center; padding:60px 20px; line-height:26px; border-radius:8px; font-size:18px; color:#900}
+.replay .txt { color:#666; font-size:14px; padding-top:10px}
+.replay a { color:#900; text-decoration:underline; padding-left:5px}
+
+.masked {color:#BBBBBB;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+.head {}
+
+	.head img { width:100%; height:auto}
+#container { width:95%; margin:0 auto; padding:10px 0 20px 0; overflow:hidden;}
+	#container .banner { margin:0; padding:0}
+	#container .banner img { width:100%; height:auto}
+	.mainNav { overflow:hidden;}
+	.mainNav a { display:block; width:25%; overflow:hidden; float:left; text-align:center}
+	.mainNav a img { width:98%; height:auto}
+	
+	.news {overflow:hidden; margin:0 0.5%; margin-top:10px}
+	.news ul { background:#eeeeee; border:1px solid #dddddd; border-bottom:none; max-height:204px; overflow:hidden}
+	.news ul li { border-bottom:1px solid #dddddd; height:50px; line-height:50px; background:url(http://cdn1.zygames.com/mocool/zqsg/mobile/img/newsicon.png) no-repeat 98% 50%; background-size:auto 50%}
+	.news ul li a { display:block; width:90%; height:100%; text-indent:1em; overflow:hidden;;text-overflow:ellipsis; font-size:15px}
+	.news ul li i {font-style:normal;}
+	.news ul li code { display:none}
+	.news ul li:active { background:#900}
+	.news ul li:active a { color:#fff}
+	
+	
+
+
+
+
+
+body #toolbarBoxOut,body .bottom,#ckepopBox,.newstxtbot,.goBack,.menuBoxm,.c_r,#adress .adress01 ,#adress .adress02,#adress span  { display:none;}
+#adress .adress03 { display:block}
+body .newsBoxText .conbox,body .thirGameInfo .conbox{ background:none; padding:0}
+#adress { position:fixed; top:0; left:0; width:100%; z-index:999;}
+header#adress { position:relative}
+.newsBoxText,.thirGameInfo { width:90%; margin:0 auto;}
+.newsBoxText .tit,.thirGameInfo .tit { line-height:28px; font-size:16px; text-align:center;margin-top:10px; }
+body .thirGameInfo { padding:0}
+body .newsBoxText .conbox,body .thirGameInfo .conbox {margin:0; font-size:14px; color:#666}
+body .newsBoxText .conbox p img,body .thirGameInfo .conbox p img { width:95%}
+body .newsBoxText .date,body .thirGameInfo .date { color:#999; margin:0; padding:10px}
+body .thirGameInfo .tit { display:none}
+body .bg_c_l { margin:0}
+.container { padding-top:60px; padding-bottom:40px}
+.artFm .container { padding-top:20px}
+
+
+
+/*zhinan*/
+.infoList { width:90%; margin:0 auto; background:#eee; margin-top:10px; border:1px solid #ddd; border-bottom:none}
+	.infoList li { height:50px; line-height:50px; border-bottom:1px solid #ddd; text-indent:2em;background:url(http://cdn1.zygames.com/mocool/zqsg/mobile/img/newsicon.png) no-repeat 100% 50%;}
+	.infoList li a { display:block; width:100%; height:100%; font-size:14px}
+	body .info_group .tit { text-indent:0; width:90%; margin:0 auto; padding-top:20px; font-size:16px; color:#777}
+
+
+/*mian*/
+.mainbanner {background:#f5f5f5; overflow:hidden; position:relative; width:94%; margin:0 auto; margin-top:10px}
+	.mainbannerMove { width:100%; height:100%; position:relative; left:0}
+		.mainbannerMove a {width:100%;height:100%;display:block;position:absolute; top:0}
+			.mainbannerMove img { width:100%; height:auto; display:block}
+		.mainbannerMove a:nth-child(1) { position:relative} 
+		.mainbannerMove a:nth-child(2) { left:100%;}
+		.mainbannerMove a:nth-child(3) { left:200%;}
+		.mainbannerMove a:nth-child(4) { left:300%;}
+		.mainbannerMove a:nth-child(5) { left:400%;}
+		.mainbannerMove a:nth-child(6) { left:500%;}
+		.mainbannerMove a:nth-child(7) { left:600%;}
+		.mainbannerMove a:nth-child(8) { left:700%;}
+		.mainbannerMove a:nth-child(9) { left:800%;}
+		.mainbannerMove a:nth-child(10) { left:900%;}
+		.mainbannerMove a:nth-child(11) { left:1000%;}
+		.mainbannerMove a:nth-child(12) { left:1100%;}
+		
+		
+	.cur {background:url(http://cdn1.zygames.com/mocool/zqsg/mobile/img/bannerbg.png) repeat; width:60px; height:10px; padding:2px 3px; position:absolute; left:50%; border-radius:50px; overflow:hidden; bottom:5px; overflow:hidden}
+	.cur em {background:url(http://cdn1.zygames.com/mocool/zqsg/mobile/img/bannericon.png) no-repeat -10px 0; background-size:auto 80%; width:10px; height:10px; display:block;float:left; overflow:hidden}
+	.cur em.hover { background-position: 0 0}
+		
+
+.bottomNav {  width:99%; margin:0 auto; line-height:45px; text-align:center; color:#fafafa; font-size:16px; height:45px;margin-top:10px;
+background: rgba(230,38,38,1);
+background: -moz-linear-gradient(top, rgba(230,38,38,1) 0%, rgba(170,17,24,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,38,38,1)), color-stop(100%, rgba(170,17,24,1)));
+background: -webkit-linear-gradient(top, rgba(230,38,38,1) 0%, rgba(170,17,24,1) 100%);
+background: -o-linear-gradient(top, rgba(230,38,38,1) 0%, rgba(170,17,24,1) 100%);
+background: -ms-linear-gradient(top, rgba(230,38,38,1) 0%, rgba(170,17,24,1) 100%);
+background: linear-gradient(to bottom, rgba(230,38,38,1) 0%, rgba(170,17,24,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e62626', endColorstr='#aa1118', GradientType=0 );}
+
+
+
+

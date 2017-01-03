@@ -1,0 +1,250 @@
+* { margin:0; padding:0;}
+ul,dl,ol { list-style:none;}
+a { text-decoration:none; color:#6cff00; blr:expression(this.onFocus=this.blur());outline:0; zoom:1; cursor:pointer}
+img { border:0;}
+body { line-height:22px; font-size:13px; color:#fff; background:url(../img/bg-y.png) repeat-y top center #070302}
+
+.bg1 {background:url(../img/bg.jpg) no-repeat center top; min-width:1000px}
+
+#video { width: 452px; height: 262px; overflow: hidden; position: absolute; z-index: 999; left: 37px; top: 323px; }
+#info1 { position: absolute; left: 0px; top: 590px; width: 1000px; height: 204px; z-index: 999; }
+
+#container { width:1000px; margin:0 auto; position:relative}
+
+#con_1 { background:url(../img/1.jpg) no-repeat; height:394px; overflow:hidden}
+
+
+
+#con_2 { background:url(../img/2.jpg) no-repeat; height:120px; overflow:hidden; position:relative}
+
+#nav { margin-left:25px; margin-top:10px}
+	#nav ul { overflow:hidden;zoom:1}
+	#nav li { float:left; margin-left:10px}
+	#nav a { display:block; width:100%; height:100%; background:url(../img/menu2.png) no-repeat 0 -96px; height:96px;}
+	#nav .n1 { width:367px}
+	#nav .n2 { width:367px}
+	#nav .n3 { width:177px}
+	
+	#nav .n1 a { background-position:0 -96px;}
+	#nav .n2 a { background-position:-377px -96px;}
+	#nav .n3 a { background-position:-754px -96px;}
+	#nav .n1 .hover { background-position:0 0}
+	#nav .n2 .hover { background-position:-377px 0}
+	#nav .n3 .hover { background-position:-754px 0}
+
+
+#menu { background-image:url(../img/menu.png); background-repeat:no-repeat; width:801px; height:122px; margin-left:70px; margin-top:20px}
+	#menu .m { float:left; overflow:hidden;zoom:1; height:122px; cursor:pointer}
+	#menu .m1 { width:163px;}
+	#menu .m2 { width:207px;}
+	#menu .m3 { width:286px;}
+	#menu .m4 { width:145px;}
+	
+	.btn1 { background:url(../img/btn8.png) no-repeat; position:absolute; width:126px; height:44px; top:28px; right:34px;}
+	.btn1-1 { background:url(../img/btn7.png) no-repeat; position:absolute; width:126px; height:44px; top:76px; right:34px;}
+	.cur1 { background-position:0 0;}
+	.cur2 { background-position:0 -123px;}
+	.cur3 { background-position:0 -246px;}
+	.cur4 { background-position:0 -369px;}
+	.cur5 { background-position:0 -491px;}
+	
+
+
+
+.con3Out { height:900px;}
+
+#con_3 { background:url(../img/3-1.png) repeat-y; width:930px; margin:0 auto; overflow:hidden}
+	.con_3_1 { background:url(../img/3.png) no-repeat; overflow:hidden}
+	.con_3_2 { background:url(../img/3-2.png) no-repeat left bottom; overflow:hidden}
+	#stepbox_out,.step { width:904px; height:700px;}
+	#stepbox_out_info { width:904px}
+
+	#stepbox_out {margin:0 auto; margin-top:20px; position:relative;overflow:hidden; }
+	
+	#stepbox { position:absolute; width:9999px}
+	
+	.step {float:left;}
+	
+	.con3box1 { height:500px;}
+	.con3box2 { height:750px;}
+	.con3box3 { height:850px;}
+	.con3box4 { height:850px;}
+
+	
+	
+	
+	
+
+/*fm*/
+.fm dl { overflow:hidden; zoom:1}
+    .fm .code a { vertical-align:bottom; line-height:13px}
+    .fm dt,.fm dd { float:left}
+    .fm dd input {font-family:Verdana, Geneva, sans-serif}
+    .fm dd .code { width:40px}
+.fm .judge {color:#949494; font-size:12px;}
+.fm .uTk { width:180px}
+.fmBtn { text-align:center; margin:12px 0; margin-left:180px}
+    .fmBtn * { margin:0 5px}
+.fm dl *,.fmBtn * { vertical-align:middle}
+
+.sys_echo { background: url("https://content.zygames.com/quote/v2/img/icon-8.gif") no-repeat scroll 4px 50% #FFEAEA;
+    border: 1px solid #E5C3C4;
+    color: #CC0000;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 80px;
+    min-height: 12px;
+    padding: 5px 10px 5px 24px;
+	border-radius:4px; font-family:"宋体"
+	}
+.sys_echo a { color:#CC0000; text-decoration:underline; margin-left:5px}
+
+.mpfm { font-family:"微软雅黑"; font-size:14px; margin:60px 200px 0 200px;}
+.mpfm dl { margin-top:20px}
+.mpfm dt { width:220px; text-align:right; padding-right:10px}
+.mpfm dd { width:200px;}
+	.btnbox { margin-left:260px; overflow:hidden;zoom:1}
+	.btnbox2 { text-align:center}
+	.btnbox2 a { margin:0 40px}
+	
+	.btn2 { background:url(../img/btn2.png) no-repeat; width:112px; height:33px; border:none; cursor:pointer; margin-top:40px; float:left}
+	.btn3 { background:url(../img/btn3.png) no-repeat; width:112px; height:33px; border:none; cursor:pointer; margin-top:40px; float:left; margin-right:100px}
+	.btn4 { background:url(../img/btn4.png) no-repeat; width:112px; height:33px; border:none; cursor:pointer; margin-top:40px; float:left}
+	.btn6 { background:url(../img/btn6.png) no-repeat; width:112px; height:33px; border:none; cursor:pointer; margin-top:40px; float:left; margin-right:100px}
+	.btn9 {background:url(../img/btn9.png) no-repeat; width:112px; height:33px; border:none; cursor:pointer; margin-top:40px; float:left; margin-right:100px}
+	
+	
+	
+	
+.bgse_hd { overflow:hidden; zoom:1; margin:10px 0 0 60px}
+
+	.bgseimg { float:left; width:96px; height:59px;cursor:pointer; overflow:hidden;background:url(../img/bg-0.png) no-repeat;}
+	.bgseimg .hover { width:100%; height:100%; background:url(../img/bghover.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://cdn1.zygames.com/qqsm/events_info/mpscq/img/bghover.png",sizingMethod='crop');}
+	
+	.bgseimg1 { background-position:6px 6px;}
+	.bgseimg2 { background-position:-90px 6px }
+	.bgseimg3 { background-position:-186px 6px}
+	.bgseimg4 { background-position:-282px 6px}
+	.bgseimg5 { background-position:-379px 6px}
+	.bgseimg6 { background-position:-475px 6px}
+	.bgseimg7 { background-position:-571px 6px}
+	.bgseimg8 { background-position:-667px 6px}
+	
+
+
+.bgse_bd { margin:20px 0 0 63px}	
+.bgse_bd img { border:1px solid #565656}
+
+
+
+.step3in { margin:30px 60px 0 60px; font-size:14px; font-family:"微软雅黑"; color:#CCC; position:relative}
+.step3in em { font-style:normal}
+.step3in * { cursor:default}
+
+.bginput { display:none}
+
+
+.step3in textarea { width:90%; font-size:13px; border:1px solid #0f0c0b; background:#211d19; padding:5px; height:50px; margin-left:20px; color:#be6416}
+
+.infotit { background:url(../img/title.png) no-repeat; padding-left:100px; width:600px; height:35px; overflow:hidden;zoom:1; position:relative; margin-top:20px}
+	.infock { cursor:pointer; position:absolute; top:11px; left:0}
+	.infotit em { line-height:35px; padding-right:10px}
+	.infotit img { margin:1px 15px 0 0; cursor:pointer}
+	
+	.infotit1 {background-position:16px 0}
+	.infotit2 {background-position:16px -35px}
+	.infotit3 {background-position:16px -70px}
+	.infotit4 {background-position:16px -105px}
+	.infotit5 {background-position:16px -138px}
+	.infotit6 {background-position:16px -173px}
+	.infotit7 {background-position:16px -210px}
+
+
+.font-c-0 { color:#eee}
+.font-c-1 { color:#be6416}
+.font-c-2 { color:#aad637}
+.font-c-3 { color:#b35856}
+.font-c-4 { color:#21c7c0}
+.font-c-5 { color:#c31818}	
+	
+.infoBasBox { overflow:hidden;zoom:1}
+	.infoBasBox_l,.infoBasBox_r { float:left}
+	.infoBasBox_l { margin-left:20px; width:82px; _display:inline}
+	.infoBasBox_r { margin-left:10px; _display:inline}
+	
+	.infoBasBox_r li { overflow:hidden;zoom:1; margin-bottom:5px}
+		.infoBasBox_r li span  { float:left; width:180px}
+		
+		
+		
+.djbox { display:none; position:absolute; background:#111; padding:30px; width:100%; left:50%; margin-left:-380px; /*top:720px;*/ width:700px;  overflow-y:auto; z-index:10; border:8px solid #151515}
+	.djbox .hd { font-size:13px;}
+	.djbox .hd span { color:#900; padding:0 5px; font-family:verdana;  font-weight:bold; font-size:16px}
+	.djbox .bd { overflow:hidden;zoom:1; margin-left:20px; margin-top:10px}
+	.djbox .bd img { margin:15px 13px 0 0; cursor:pointer; border:1px solid #000;}
+	.djbox .bd img:hover { border-color:#DB6E05}
+	.djbox .close { text-align:right}
+	.djbox .ft { text-align:center; margin-top:60px}
+	.djbox .ft img { cursor:pointer; margin:0 10px}
+	.unep { display:none}
+	.djbox p { margin-bottom:20px}
+	
+.djboxbg { display:none; position:absolute; left:0; top:0; z-index:9; background:#000}
+
+.ckhd { cursor:pointer}
+
+
+.step4in { margin:30px}
+	.step4in .mpbox { width:680px; margin:0 auto}
+	
+	
+	.more { overflow:hidden; margin-top:40px; border-top:1px dashed #28201a;}
+	.more p { color:#85451a; margin-left:20px; line-height:30px; display:block; height:30px}
+	.more1,.more2,.more3 { float:left;overflow:hidden; height:140px; margin-top:10px; }
+		.more .btn3 { margin:0}
+		.more1,.more2 {border-right:1px dashed #28201a}
+		
+		.more .more1 { width:250px;}
+			.more .more1 div { margin:20px 0 0 70px; _display:inline}
+		.more .more2 { width:250px;}
+			.more .more2 a { display:block;margin:20px 0 0 70px; width:112px;_display:inline}
+		.more .more3 { width:400px; border:none}
+			.more .more3 div { margin:10px 0 0 50px;_display:inline}
+		
+		.more3 dl { overflow:hidden;zoom:1; margin-bottom:5px}
+			.more3 dl dt,.more3 dl dd { float:left}
+			.more3 dl dt { width:100px; text-align:right}
+			.more3 dl dd input { border:1px solid #111; width:140px; height:23px; line-height:23px;}
+			.more3 dl .dt1 { width:40px; text-align:left; padding-left:5px}
+			.more3 dl .dt1 input { width:40px; height:25px; border:1px solid #111; cursor:pointer}
+			
+			
+			
+/**/
+.infobox {margin-left:20px}
+	.infobox .hd { text-align:center; font-size:26px; font-family:"微软雅黑"; line-height:50px; height:50px; margin-top:20px}
+	
+	.infobox .bd .s1 { border:1px solid #2d2c2c; background:#131212; color:#e0a31f; margin:30px 10px;font-size:17px; font-family:"微软雅黑"; line-height:30px; padding:20px; text-indent:2em}
+	.infobox .bd p { margin:20px 90px; font-family:"微软雅黑"; font-size:14px; text-indent:2em; font-size:16px}
+	.infobox .bd p span { color:#900}
+	.infobox .bd p img {margin-bottom:20px}
+	
+	.tab_hd .cur { color:#FF0}
+	.tab_hd ul { overflow:hidden;zoom:1}
+	.tab_hd li {cursor:pointer; float:left; width:274px; background:url(../img/tab_hdbg.png) repeat-x; height:40px; line-height:40px; text-align:center; margin-left:15px; _display:inline}
+	
+	.tab_bd .tab_conbox { display:none; padding:40px; padding-top:20px}
+	.tab_bd .show { display:block}
+	
+/**/
+.mycard { margin:10px 40px 0 40px; overflow:hidden;zoom:1; padding-bottom:50px;}
+	.mycardbox { margin-top:50px}
+	.mycard_hd { text-align:center}
+	.mycard_bd .more {border-bottom:1px dashed #28201a; border-top:none; padding-bottom:20px; margin-top:10px}
+	.mycard_bd .more2,.mycard_bd .more3 { height:100px}
+	.mycard_bd .more2 .btn9 { margin-top:10px}
+	.mycard_bd .more2 { margin-left:100px}
+	
+	
+	
